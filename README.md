@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Burhani Music</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #ffffff10;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h2 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #00d2ff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+
+    .download-btn:hover {
+      background-color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: rgba(0, 0, 0, 0.2);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎧 Burhani Music</h1>
+  <p>Download Nyimbo Mpya za Bongo Flava & More</p>
+</header>
+
+<div class="container">
+  <!-- WIMBO 1 -->
+  <div class="card">
+    <img src="https://link_ya_cover1.jpg" alt="Msanii 1">
+    <div class="card-content">
+      <h2>Diamond Platnumz - Jeje</h2>
+      <a class="download-btn" href="https://link_ya_mp3_1.mp3" download>Pakua</a>
+    </div>
+  </div>
+
+  <!-- WIMBO 2 -->
+  <div class="card">
+    <img src="https://link_ya_cover2.jpg" alt="Msanii 2">
+    <div class="card-content">
+      <h2>Harmonize - Sijalewa</h2>
+      <a class="download-btn" href="https://link_ya_mp3_2.mp3" download>Pakua</a>
+    </div>
+  </div>
+
+  <!-- WIMBO 3 -->
+  <div class="card">
+    <img src="https://link_ya_cover3.jpg" alt="Msanii 3">
+    <div class="card-content">
+      <h2>Zuchu - Nani</h2>
+      <a class="download-btn" href="https://link_ya_mp3_3.mp3" download>Pakua</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Burhani Music | Nyimbo zote ni mali ya wasanii husika.
+</footer>
+
+</body>
+</html>
